@@ -1,6 +1,8 @@
 class ReRelationtype < ActiveRecord::Base
   unloadable
-  
+
+  attr_accessible :is_system_relation, :is_directed, :in_use, :color
+    
   #validates :id, :presence => true, :numericality => true
   #validates :project_id, :presence => true, :numericality => true
   #validates :relation_type, :presence => true
@@ -15,15 +17,15 @@ class ReRelationtype < ActiveRecord::Base
     tmp = nil
     if is_system_relation == nil
       if is_used_relation == nil
-         tmp = ReRelationtype.find_all_by_project_id(project_id)
+         tmp = ReRelationtype.where(project_id: project_id)
       else
-        tmp = ReRelationtype.find_all_by_project_id_and_in_use(project_id, is_used_relation)
+        tmp = ReRelationtype.where(project_id: project_id, in_use: is_used_relation)
       end  
     else
       if is_used_relation == nil
-        tmp = ReRelationtype.find_all_by_project_id_and_is_system_relation(project_id, is_system_relation)
+        tmp = ReRelationtype.where(project_id: project_id, is_system_relation: is_system_relation)
       else 
-        tmp = ReRelationtype.find_all_by_project_id_and_is_system_relation_and_in_use(project_id, is_system_relation, is_used_relation)
+        tmp = ReRelationtype.where(project_id: project_id, is_system_relation: is_system_relation, in_use: is_used_relation)
       end
     end
     tmp.each do |relationtype|
