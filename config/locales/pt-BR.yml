@@ -1,0 +1,611 @@
+# Brazilian Portuguese strings go here for Rails i18n
+pt:
+  datetime:
+    formats:
+      short: "%d/%m/%y, %H:%M"
+
+  # general stuff
+  re_create_a_new: 'Criar novo(a)'
+  re_of_type: 'do tipo'
+  re_requirements: 'Requisitos'
+  re_save: 'Salvar'
+  re_cancel: 'Cancelar'
+  re_edit: 'Editar'
+  re_delete: 'Excluir'
+  re_show: 'Exibir'
+  re_requirements_overview: 'Visão geral dos Requisitos'
+  re_create_new_artifacts: 'Criar novos Artefatos'
+  re_create_child: 'Criar filho'
+  re_delete_confirm: 'Você realmente deseja apagar %{what}?'
+  re_select_artifact: 'Selecione o Artifato'
+  re_unsaved: 'não salvo'
+  re_common_attributes: 'Atributos em comum'
+  re_type: 'Tipo'
+  re_structuring_elements: 'Estruturando elementos'
+  re_stakeholders: 'Stakeholders'
+  re_more: 'mais'
+  re_drag_list_items_to_reorder_artifacts: 'Arraste a lista de items para reorganizar os artefatos de requisitos. The configured order will be used everywhere in the RE Plugin'
+  re_artifact_order: 'Ordem de exibição de artefato'
+  re_create: 'Criar'
+  re_create_new: 'Criar um novo '
+  re_first_use: 'Esta é a primeira vez que você está usando o RE Plugin'
+  re_project_was_setup: 'Eu acabei de configurar seu banco de dados'
+  re_continue_here: 'Para mais informações, continue aqui'
+  re_link_to_configure: 'Ou configure o Plugin'
+  re_configure: 'Configurar'
+  re_plugin_configuration: 'Configuração do Redmine RE Plugin'
+  re_index: 'Redmine RE Plugin'
+  re_are_you_sure: 'Você tem certeza?'
+  re_was_updated: 'foi atualizado'
+  re_was_created: 'foi criado'
+  re_tree_loading: 'A árvore está carregando...'
+  re_editor_for: 'Please wait, the editor for'
+  re_is_being_loaded: 'carregando...'
+  re_remove: 'remover'
+  re_to: 'para'
+  re_from: 'de'
+  re_hide: 'esconder'
+  re_shows_after_reload: 'será exibido após o recarregamento da página'
+  re_no_one_line_view_existent: 'Faltando template: Nenhuma One_line_view foi definida ainda'
+  re_scroll_to_top: 'Scroll para o topo'
+  re_associated_issues: 'Tarefas relacionadas'
+  re_asscociated_requirements: 'Artefatos relacionados'
+  re_add_associated_requirements: 'Adicionar artefatos relacionados'
+  add_issue_to_requirement: 'Adicionar Tarefa relacionada'
+  re_404_invalid_project_id: 'O projeto (ou o ID do projeto) não pode ser encontrado ou é inválido'
+  re_404_artifact_not_found: 'O artefato (ou o ID do artefato) não pode ser encontrado'
+  re_404_artifact_not_found_or_project_missing: 'Nenhum artifato pode ser encontrado e nenhum ID de projeto foi fornecido'
+  re_confirm: 'Confirmar'
+  re_artifact_details: 'Detalhes do artefato'
+  re_created_by: 'Criado por'
+  re_last_update: 'última atualização'
+  re_by: 'por'
+  re_at: 'em'
+  re_directed: 'directed'
+
+  # Configuration
+  re_administrate: 'Adminisdração'
+  re_configure_plugin: 'Configurar o Plugin'
+  re_configure_fields_treebar: 'Configurar os campos do artefato %{artifact_type}'
+  re_conf_fields: 'Configurar os campos customizados desse tipo de artefato'
+  re_relation_management_pane: 'Sempre exibir o painel de gerenciamento de relação'
+  re_visualization_size: 'Tamanho da visualização (em pixels)'
+  re_plugin_description: 'Descrição do Plugin'
+  general_visualization_settings: 'Configurações gerais de visualização'
+  re_update_plugin_description: 'Atualizar descrição do plugin'
+  re_child_artifacts: 'Artefatos filhos'
+  re_fields: 'Campos'
+  re_configs_saved: 'Configurações salvas com sucesso'
+
+  re_display_order: 'Ordem de exibição'
+  re_conf_internal_name: 'Nome interno'
+  re_relationship_configuration: 'Configuração de relacionamento'
+  re_conf_artifact_display_order: 'Use Drag and Drop to change the display order (e.g. in the side menu or the index page)'
+  re_conf_artifact_directed: 'Directed'
+  re_use: 'Uso'
+  re_conf_artifact_in_use: 'Você deseja usar (exibir) esse tipo de artefato nesse projeto (artefatos já existentes não serão excluídos)?'
+  re_alias_name: 'Alias'
+  re_conf_alias_name: 'You can give another name to this artifact type to match your RE process'
+  re_color: 'Cor'
+  re_conf_color: 'A cor desse artefato ao longo da aplicação. É bastante útil na visualização'
+  re_show_in_visualization: 'Exibir na visualização'
+  re_conf_directed: 'Directed'
+  re_conf_show_in_visualization: 'Define if this relation type is shown in visualization by default'
+  re_conf_display_order: 'Display order'
+  re_field_configuration: 'Configuration of fields for artifact type %{artifact_type}'
+  re_edit_artifact_type_description: 'Edit description for "%{artifact_type}" artifact'
+  re_artifact_type_description_configuration: 'Configuration of description of artifact type %{artifact_type}'
+  re_artifact_type_description: 'Artefato type description'
+  re_description_updated_successfully: 'Descrição was updated successfully'
+  re_conf_add_relation: "Adicionar relação"
+
+  # re_artifact_properties
+  re_artifact_name: 'Nome'
+  re_artifacts: 'Artefatos'
+  re_artifact: 'Artefato'
+  re_artifact_priority: 'Prioridade'
+  re_artifact_description: 'Descrição'
+  re_artifact_responsible: 'Responsável'
+  re_artifact_responsibles: 'Responsáveis'
+  re_artifact_created_by: 'Criado por'
+  re_artifact_updated_by: 'Atualizado por'
+  re_description_fieldset: 'Descrição do artefato'
+  re_priority_responsible: 'Prioridade e Responsabilidades'
+  re_update_description: 'Atualizar descrição'
+  re_wiki_page_for_artifact: 'Página Wiki'
+  re_create_wiki_page_for_re_artifact: 'Criar nova página Wiki'
+  re_show_wiki_page_for_re_artifact: 'Página Wiki'
+  re_preview_wiki_page_for_re_artifact: 'Pré-visualizar página Wiki:'
+  re_wiki_page_available_after_save: 'Você pode conectar uma página Wiki após salvar'
+  re_artifact_properties_not_enought_chars: 'Quantidade mínima de caracteres: %d'
+  re_artifact_properties_to_many_chars: 'Quantidade máxima de caracteres: %d'
+  re_artifact_properties_updated: 'Propriedades do artefato atualizadas'
+  re_artifact_properties_created: 'Artefato criado'
+  re_no_responsible_user_defined: 'Nenhum usuário responsável foi definido'
+
+  project: Projeto
+  re_my_artifacts: 'Meus artefatos'
+  re_linked_artifact: 'Artefato relacionado'
+  re_linked_artifact_name: 'Nome do artefato relacionado'
+  re_linked_artifact_type: 'Tipo do artefato relacionado'
+  re_linked_artifacts: 'Artefatos relacionados'
+  re_linked_artifacts_count: 'Artefatos relacionados'
+  re_common_linked_artifacts: 'Artefatos relacionados'
+
+  re_artifact_properties_validates_presence_of_name: 'Insira o nome do artefato.'
+  re_artifact_properties_validates_uniqueness_of_name: 'Esse nome já está sendo utilizado por um outro artefato.'
+  re_artifact_properties_validates_presence_of_updated_by: 'Atualizado por não pode ser em branco.'
+  re_artifact_properties_validates_presence_of_created_by: 'Criado por não pode ser em branco'
+  re_artifact_properties_validates_presence_of_project: 'Não existe um projeto associado a este artefato.'
+  re_artifact_properties_validates_presence_of_artifact: 'Nenhum artefato foi associado com as propriedades desse artefato'
+  re_artifact_properties_validates_presence_of_parent: 'This artifact does not seem to have a parent artifact defined'
+  re_artifact_properties_validates_uniqueness_of_artifact: 'The artifact associated with these artifact properties has to be unique '
+
+  field_re_artifact_properties:
+    name: 'Nome: '
+    updated_by: 'Updating User: '
+    created_by: 'Creating User: '
+    project: 'Projeto: '
+    parent: 'Artefato pai: '
+
+  activerecord:
+    errors:
+      models:
+        re_artifact_relationship:
+          attributes:
+            source_id:
+              re_the_specified_relation_already_exists: 'A relação especificada já existe'
+    models:
+      re_artifact_relationship: 'Relacionamento'
+      re_artifact_properties: 'Artefato'
+    attributes:
+      re_artifact_relationship:
+        sink: 'Sink Artefato'
+        source: 'Artefato fonte'
+        source_id: 'Artefato fonte'
+        relation_type: 'Tipo de relação'
+      re_artifact_properties:
+        updaed_by: 'Updating User'
+        created_by: 'Creating User'
+        parent: 'Artefato pai'
+
+  re_parent: 'Pai'
+  re_children: 'Filhos'
+  re_set_parent: 'Definir artefato pai'
+  re_creating_a_new: 'Criando um novo(a)'
+
+  # re_artifact_properties_deletion
+  re_preparing_deletion: 'Preparing deletion'
+  re_you_asked_for_deleting_the_following_artifact: 'You asked for deleting the following artifact'
+  re_what_will_be_deleted: 'If you delete this artifact, the relationships listed below will also be deleted.'
+  re_confirm_deletion_by_choosing: 'Please confirm the deletion by choosing an option below'
+
+  re_delete_and_move_children: 'Delete artifact and move children'
+  re_will_delete_artifact_and_move_children: 'Choosing this option will attach all children of this artifact (listed above) to the parent of this artifact (%{parent}). Afterwards this artifact (%{name}) and all its relationships to other artifacts will be deleted.'
+  re_delete_recursively: 'Delete recursively'
+  re_will_delete_artifact_and_all_children: 'Choosing this option will delete this artifact (%{name}) and the relationships (listed above). Additionally all its children and their children (listed above) as well as each childs relationships to other artifacts will be deleted. You may want to double check, before choosing this option.'
+  re_delete_artifact: 'Delete artifact'
+  re_will_delete_artifact_and_relations: 'Choosing this option will delete this artifact (%{name}) and its relationships (listed above).'
+
+  re_deleted_artifact_and_children: 'Successfully deleted the artifact and all its children.'
+  re_deleted_artifact_and_moved_children: 'Successfully attached all child artifacts to the parent and deleted the artifact.'
+
+  re_delete_project_artifact: 'Delete project artifact'
+  re_cannnot_delete_project_artifact: 'This artifact is a project artifact which cannot be deleted. To delete the project, please use '
+  re_redmine_project_administration: 'Redmine Project Administration'
+  re_delete_project_artifact_error: 'The project artifact cannot be deleted.'
+
+  #re_requirement
+  re_requirement: 'Requisito'
+  re_new_re_requirement: 'Requisito'
+  re_create_re_requirement: 'Criar Requisito'
+  re_requirement_priority: 'Prioridade'
+  re_requirement_saved: 'Requisito salvo com sucesso'
+
+  #re_scenario
+  re_scenario: 'Cenário'
+  re_new_re_scenario: 'Cenário'
+  re_create_re_scenario: 'Criar Cenário'
+  re_scenario_priority: 'Prioridade'
+  re_scenario_saved: 'Cenário salvo com sucesso'
+
+  # re_section
+  re_new_re_section: 'Seção'
+  re_create_re_section: 'Criar uma nova Seção'
+  re_section: 'Seção'
+  ReSection: 'Seção'
+  re_section_not_found: 'Não pode encontrar uma Seção com id %{id}.'
+  re_section_deleted: 'A Seção %{name} foi excluída com sucesso.'
+  re_section_not_deleted: 'A Seção %{name} não pode ser excluída.'
+  re_section_saved: 'Seção salva com sucesso'
+  re_section_priority: 'Prioridade'
+
+  # re_vision
+  re_vision_priority: 'Prioridade'
+  re_new_re_vision: 'Declaração de Visão'
+  re_vision: 'Declaração de Visão'
+  ReVision: 'Declaração de Visão'
+  re_create_re_vision: 'Criar nova Declaração de Visão'
+  re_vision_saved: 'Visão salva com sucesso.'
+  re_vision_not_found: 'Não pode encontrar Visão com id %{id}.'
+  re_vision_deleted: 'A Visão %{name} foi excluída com sucesso.'
+  re_vision_not_deleted: 'A Visão %{name} não pode ser excluída.'
+
+  # re_workarea
+  re_workarea: 'Workarea'
+  re_create_re_workarea: 'Create a new Workarea'
+  ReWorkarea: 'Workarea'
+  re_new_re_workarea: 'Workarea'
+  re_workarea_priority: 'Prioridade'
+  re_workarea_saved: 'Workarea successfully saved'
+  re_workarea_not_found: 'Could not find ReWorkarea with id %{id}.'
+  re_workarea_deleted: 'The ReWorkarea %{name} foi excluída com sucesso.'
+  re_workarea_not_deleted: 'The ReWorkarea %{name} não pode ser excluída.'
+
+  # re_user_profile
+  re_user_profile: 'User Profile'
+  re_create_re_user_profile: 'Create a new User Profile'
+  ReUserProfile: 'User Profile'
+  re_new_re_user_profile: 'User Profile'
+  re_user_profile_priority: 'Prioridade'
+  re_user_profile_saved: 'User Profile Successfully Saved'
+  re_user_profile_deleted: 'The User Profile %{name} has been deleted'
+  re_user_profile_not_deleted: 'The User Profile %{name} não pode ser excluída'
+  re_user_profile_not_found: 'Could not find a User Profile with id %{id} to delete'
+
+  # re_artifact_relationships
+  re_relation_sucessfull_created: '"%{relation_type}"-relation successfully created from %{source_name} to %{sink_name}'
+  re_artifact_relationships: 'Relationships'
+  re_show_relationships: 'Show Relationships'
+  re_artifact_relationships_outgoing: 'Outgoing Relationships'
+  re_artifact_relationships_incoming: 'Incoming Relationships'
+  re_connected_nodes: 'Connected Nodes'
+  re_artifact_details: 'Artefato Details'
+  re_relationship: 'Relationship'
+  re_conflict: 'Conflict'
+  re_dependency: 'Dependency'
+  re_parentchild: 'Parent Child'
+  re_rationale: 'Rationale'
+  re_part_of: 'Part of'
+  re_refinement: 'Refinement'
+  relationship: 'Relationship'
+  conflict: 'Conflict'
+  dependency: 'Dependency'
+  parentchild: 'Parent Child'
+  rationale: 'Rationale'
+  part_of: 'Part of'
+  refinement: 'Refinement'
+  re_create_new_relationship: 'Create new relationship'
+  re_source_artifact: 'Source Artefato'
+  re_sink_artifact: 'Sink Artefato'
+  re_artifact_type: 'Type'
+  re_source_artifact_name: 'Source Artefato Name'
+  re_sink_artifact_name: 'Sink Artefato Name'
+  re_source_artifact_type: 'Source Artefato Type'
+  re_sink_artifact_type: 'Sink Artefato Type'
+  re_create_new_relation: 'Create a new relation'
+  re_dependency_relation_type: 'Dependency'
+  re_conflict_relation_type: 'Conflict'
+  re_relation_type: 'Relation Type'
+  re_relationship_create_error: 'Relation could not be created'
+  ReArtifactRelationship: 'RE Relationship'
+  Requisitos: 'Requisitos'
+
+  re_please_select_visualization_type: 'Please select how to visualize your data by choosing the visualization type.'
+  re_visualization_type: 'Visualization Type'
+  re_space_tree: 'Space Tree'
+  re_sunburst: 'Sunburst'
+  re_netmap: 'Netmap'
+
+  # re_goals
+  re_new_re_goal: 'Goal'
+  re_create_re_goal: 'Create a Goal'
+  re_show_goals: 'Show Goals'
+  re_goal: 'Goal'
+  re_goals: 'Goals'
+  ReGoal: 'Goal'
+  re_goal_priority: 'Prioridade'
+  re_goal_saved: 'Goal successfully saved'
+  re_goal_deleted: 'The Goal %{name} has been deleted'
+  re_goal_not_deleted: 'The Goal %{name} não pode ser excluída'
+  re_goal_not_found: 'Could not find a Goal with id %{id} to delete'
+
+  # re_tasks
+  re_new_re_task: 'Task'
+  re_create_re_task: 'Create a new Task'
+  re_show_tasks: 'Show Tasks'
+  re_task: 'Task'
+  re_tasks: 'Tasks'
+  ReTask: 'Task'
+  re_task_priority: 'Prioridade'
+  re_task_saved: 'Task successfully saved'
+  re_task_and_subtasks_saved: 'Task and Subtasks successfully saved'
+  re_task_deleted: 'The Task %{name}} has been deleted'
+  re_task_not_deleted: 'The Task %{name} não pode ser excluída'
+  re_task_not_found: 'Could not find a Task with id %{id} to delete'
+  re_task_specific_attributes: 'Task specific attributes'
+  re_task_start: 'Início'
+  re_task_end: 'Fim'
+  re_task_frequency: 'Frequência'
+  re_task_difficult: 'Dificuldade'
+  re_subtasks: 'Subtasks'
+  re_task_difficulties: 'Difficuldades'
+  re_update_difficult: 'Atualizar Difficuldades'
+  re_st_type_not_allowed: 'This subtask type is not allowed'
+  re_st_position_not_allowed: 'This subtask position is not allowed'
+  re_subtask_type: 'Type'
+  re_subtask_name: 'Name'
+  re_subtask_solution: 'Solution'
+  re_task_attributes: 'Task specific attributes'
+
+
+  # re_subtasks
+  re_new_re_subtask: 'Subtask'
+  re_show_subtasks: 'Show Subtasks'
+  re_create_re_subtask: 'Create a new Subtask'
+  re_subtask: 'Subtask'
+  ReSubtask: 'Subtask'
+  re_subtask_solution: 'Solution'
+  re_subtask_problem: 'Problem'
+  re_subtask_variant: 'Variant'
+  re_insert_st_before: 'inserir'
+  re_insert_st_after: 'inserir sub-tarefa'
+  re_insert_va_after: 'inserir variante'
+  re_insert_pr_after: 'inserir problem'
+  re_delete_subtask: 'delete'
+  re_subtask_priority: 'Prioridade'
+  field_subtasks: 'Subtasks'
+  re_subtasks_saved: 'Subtasks successfully saved'
+  re_subtasks_not_valid: 'Subtasks are not valid!'
+  re_subtask_saved: 'Subtask %{name} successfully saved'
+  re_subtask_deleted: 'The Subtask %{name} has been deleted'
+  re_subtask_not_deleted: 'The Subtask %{name} não pode ser excluída'
+  re_subtask_not_found: 'Could not find a Subtask with id %{id} to delete'
+
+  # re_attachment
+  re_attachment: 'Anexo'
+  ReAttachment: 'Anexo'
+  re_new_re_attachment: 'Anexo'
+  re_attachment_priority: 'Prioridade'
+  re_create_re_attachment: 'Criar novo anexo'
+  re_attachment_saved: 'Anexo salvo com sucesso!'
+  re_attachment_deleted: 'O anexo %{name} foi removido'
+  re_attachment_not_deleted: 'O anexo %{name} não pode ser deletado'
+  re_attachment_not_found: 'Não foi possível encontrar um anexo com id %{id} para excluir'
+  re_attachment_no_file_error: 'Por favor, selecione um arquivo!'
+  re_attachment_size_greater_zero: 'O tamanho do arquivo deve ser maior do que >0 byte!'
+  re_attachment_validation_error: 'Erro no arquivo de anexo: %{msg}'
+  re_attachment_file: 'Arquivo'
+
+  # re_settings
+  re_settings_have_to_save: 'No configuration saved yet: You have to click on save before you leave this page!'
+  re_settings_have_to_save_again: 'The system has been updated! Please check the configuration. You have to click on save before you leave this page!'
+  re_pandoc_error_first: 'Redmine_re uses '
+  re_pandoc_error_second: ' to export artifact data to different formats. Please make sure pandoc is installed.'
+  re_export_error: 'Error during export. Please make sure pandoc is installed and an output format is configured in the settings.'
+  re_export_format_configuration: 'Export Format Configuration'
+  # re_requirement
+  re_requirement: 'Requisito'
+  ReRequirement: 'Requisito'
+  re_artifact_configuration: 'Configuração de artefato'
+
+  #re_use_case
+  re_use_case: 'Caso de Uso'
+  ReUseCase: 'Caso de Uso'
+  re_new_re_use_case: 'Novo Caso de Uso'
+  re_create_re_use_case: 'Criar novo Caso de Uso'
+  re_use_case_specific_attributes: 'Atributos específicos do Caso de Uso'
+  re_use_case_saved: 'Caso de Uso salvo com sucesso'
+  re_use_case_deleted: 'Caso de Uso %{name} deletado'
+  re_use_case_not_deleted: 'Caso de Uso %{name} não pode ser deletado'
+  re_use_case_not_found: 'Não pode encontrar um Caso de Uso com id %{id} para excluir'
+  re_use_case_level : 'Level'
+  re_use_case_abstract_overview : 'Abstract Overview'
+  re_use_case_overview : 'Visão geral'
+  re_use_case_user_goal : 'User Goal'
+  re_use_case_function : 'Function'
+  re_use_case_low : 'Baixo'
+  re_use_case_trigger : 'Trigger'
+  re_use_case_precondition : 'Pré condição'
+  re_use_case_postcondition : 'Pós condição'
+  re_delete_use_case_step: 'Deletar'
+  re_user_steps: 'Passos do usuário'
+  re_system_steps: 'Passos do Sistema'
+  re_use_case_steps: 'Passos do Caso de Uso'
+  re_uc_user: 'Usuário'
+  re_uc_system: 'Sistema'
+  re_uc_add: 'adicionar'
+  re_uc_add_below: 'adicionar abaixo'
+  re_uc_insert: 'adicionar '
+  re_system_step: 'system step'
+  re_user_step: 'user step'
+  re_use_case_and_steps_saved: 'Caso de Uso e todos os passos salvos com sucesso'
+  re_use_case_step: 'Passo'
+  re_extension_type: 'Tipo'
+  re_extension_description: 'Descrição'
+  re_uc_dialog: 'diálogo'
+  re_use_case_expansion: 'Expansão'
+  re_expansion_type: 'Tipo'
+  re_expansion_description: 'Descrição'
+  re_delete_use_case_expansion: 'Delete'
+  re_use_case_primary_actor: 'Ator primário'
+  re_use_case_secondary_actors: 'Ator(es) secundário(s)'
+  re_actors: 'Atores'
+  re_use_case_attributes: 'Atributos específicos de Caso de Uso'
+  re_use_case_expansions: 'Expansões do Caso de Uso'
+  re_exception_expansion: 'Exceção'
+  re_data_expansion: 'Data'
+  re_other_expansion: 'Outro'
+
+  # re_scenario
+  re_scenario: 'Scenario'
+  ReScenario: 'Scenario'
+
+  # re_processword
+  re_processword: 'Processword'
+  ReProcessword: 'Processword'
+  re_processword_specific_attributes: 'Process word specific attributes'
+  re_processword_synonyms: 'Sinônimos'
+  re_new_re_processword: 'New Processword'
+  re_processword_priority: 'Prioridade'
+  re_create_re_processword: 'Create a new Processword'
+  re_processword_saved: 'Processword successfully saved'
+  re_processword_deleted: 'The Processword %{name} has been deleted'
+  re_processword_not_deleted: 'The Processword %{name} não pode ser excluída'
+  re_processword_validation_error: 'Processword error: %{msg}'
+
+  # re_rationale
+  re_rationale: 'Rationale'
+  ReRationale: 'Rationale'
+  re_new_re_rationale: 'New Rationale'
+  re_create_re_rationale: 'Create a new Rationale'
+  re_rationale_specific_attributes: 'Rationale specific attributes'
+  re_rationale_saved: 'Rationale Successfully Saved'
+  re_rationale_deleted: 'The Rationale %{name} has been deleted'
+  re_rationale_not_deleted: 'The Rationale %{name} não pode ser excluída'
+  re_rationale_not_found: 'Could not find a Rationale with id %{id} to delete'
+
+  # re_tree
+  re_specification_overview: 'Specification overview'
+  re_treefilter: 'Filter'
+  re_create_in: 'create artifact in...'
+  re_create_below: 'create artifact below...'
+  re_create_relation: 'create relation to...'
+
+  #Visualization
+  re_relationship_visualization: 'Visualização'
+  re_visualization_show_netmap: 'show as Netmap'
+  re_visualization_show_sunburst: 'show as Sunburst'
+  re_visualization_show_graph: 'show as Graph'
+  re_visualization_show: 'Visualização'
+  re_visualization_config: 'Configurar'
+  re_visualitation_deep_graph_explain: 'Passos máximos de iteração (0 = desabilitado)'
+
+  # fields
+  field_re_artifact: 'campo de Artefato'
+
+  #issues
+  implementation_of: 'Implementação de'
+  issue_menue_visualization: 'Tarefas'
+
+  #diagrams
+  re_related_diagrams: 'Diagramas relacionados'
+  re_diagrams: 'Diagramas'
+
+  #my blocks
+
+  relations: 'Relations'
+  main_tab: 'Aba principal'
+  comments: 'Comentários'
+  new_comment: 'Novo comentário'
+  new_comment_text: 'Texto do comentário:'
+  re_artifact_comments_count: 'Número de comentários'
+  open_requirements: 'Abrir Requisitos'
+  artifactcount: 'Número de Artefatos'
+  artifacts_wo_issues: 'Número de Artefatos não conectados a uma Tarefa'
+  issuecount: 'Número de Tarefas'
+  issues_wo_artifacts: 'Número de tarefas não conectadas a nenhum Artefato'
+  ticketend_overdue: 'Tickets with End Date overdue'
+  ticketstart_overdue: 'Tickets with Start Date overdue'
+  artifact_issue_coverage: 'Cobertura Tarefa/Artefato:'
+  subject: 'Subject'
+  status: 'Status'
+  dates: 'Datas'
+  todo: 'Open Tickets'
+  progress: 'Progress'
+  requirement_progress: 'Progresso do Requisito'
+
+  rating: 'Rating'
+  rating_average: 'Rating average'
+  re_artifact_rating_average: 'Rating average'
+  own_rating: 'Your rating'
+
+  #query and filter
+  label_any: 'qualquer'
+  label_some: 'some'
+  label_is_me: 'sou eu'
+  label_is_not_me: 'não sou eu'
+  label_asc: 'crescente'
+  label_desc: 'decrescente'
+  re_enhanced_filter: 'Filtro avançado'
+  re_filter: 'Filtro'
+  re_select_all: 'Selecionar todos'
+  re_unselect_all: 'Desselecionar todos'
+  re_filter_apply: 'Aplicar'
+  re_filter_save: 'Salvar'
+  re_filter_save_and_apply: 'Salvar & Aplicar'
+  re_filter_source_artifacts: 'Source'
+  re_filter_sink_artifacts: 'Sink'
+  re_filter_related_issues: 'Tarefas relacionadas'
+  re_filter_order: 'Ordem'
+
+  re_query_settings: 'Configurações'
+  re_query_name: 'Nome'
+
+  re_artifact_id: '#'
+  re_incoming_relationship_count: 'Incoming'
+  re_outgoing_relationship_count: 'Outgoing'
+  re_related_issues: 'Tarefas'
+  re_updated_at: 'Updated'
+
+  re_traces_to: 'Traces to'
+  re_traces_from: 'Traces from'
+
+  re_query_visibility_public: 'público'
+  re_query_visibility_me: 'apenas eu'
+  re_query_visibility_roles: 'para'
+
+  re_please_choose: 'por favor escolha'
+  re_primary_actor: 'Ator primário'
+  re_secondary_actor: 'Ator(es) secundário(s)'
+  re_add_secondary_actor: 'Adicionar ator secundário'
+  re_find_secondary_actor: 'Encontrar ator secundário'
+  re_changed_by: 'Alterado(a) por'
+
+  re_delete_use_case_step_expansion: 'Delete'
+
+  re_starts_with: 'Inicia com'
+  re_ends_with: 'Termina com'
+  re_contains: 'Contém'
+  re_equals: 'Igual a'
+  re_lesser_than: 'Menor do que'
+  re_greater_than: 'Maior do que'
+  re_none_specific: 'Nenhum específico'
+  re_apply_filter: 'Aplicar filtro'
+
+  re_artifact_attributes: 'Atributos de artefato'
+
+  label_attachments: 'Anexos'
+
+  re_relation_saved: 'Relação salva com sucesso'
+  re_relation_saved_error: 'Relação não foi salva com sucesso'
+
+  re_artifact_related_content: 'Conteúdo relacionado'
+
+  #mail
+  re_text_artifact_added: "Artefato %{id} foi adicionado por %{author}."
+  re_text_artifact_updated: "Artefato %{id} foi atualizado por %{author}."
+  re_text_artifact_updated_new_comment: "Novo comentário adicionado por %{author}:"
+
+  connect_issue: "Conectar tarefa"
+
+  #export
+  re_export: 'Exportar'
+
+  re_edit_default_description: 'Editar descrição padrão'
+
+  #default artifact descriptions
+  re_goal_default_description: '<p>You may want to use goals as high level requirements or to structure your requirements. There are also approaches using goals for the whole RE, especially for understanding the requirements.</p> <p>Goals are a good starting point to record the intentions of your stakeholders. Goals do not have to be fully achieveable nor measureable. Goals can be regarded as a first sketch of the requirements. You can use goals to discover conflicts between the intentions of your stakeholders and solve this conflicts. This may helps you to establish an overall agreement between your stakeholders. You should take care about that a goal refines a vision statements. [Alexander 2009, S. 51]</p>'  
+  re_processword_default_description: "<p>Processwords are needed for the use of a syntactic requirements template. You can define synonyms for the word here and deliver a proper definition of the term.</p>"  
+  re_vision_default_description: "<p>A vision statement for your project. Describe ideas in Wiki style syntax with this artifact.</p> <p>You should use vision statement to describe the basic purpose of your project. A vision should be clear and simple so that everybody is able to understand the basic purpose the project. [Alexander 2009, S 53]</p>"
+  re_task_default_description: "<p>If you are unfamiliar with using Lauesen''s Task-Based approach for RE - it is very similar to the famous Use-Cases by Cockburn - simply <a href='http://www.itu.dk/~slauesen/SorenReqs.html'>check his website</a>.<br /> Most important is that you recognize the demand solution principle coming with the two columns of the approach.</p> <p>Tasks do not distinguish between who does what. Task closure means that your task has a well defined start and end point. A good starting point is something that happens in the user''s world, for instance that a client calls. A good end point is that nothing more can be done about the case right now - the user deserves a \"coffee break\". [Lauesen 2011, S. 34]</p>"
+  re_use_case_default_description: "<p>Use Case template as found in Cockburn''s Book Writing effective Use-Cases.</p>"
+  re_section_default_description: "<p>Use sections to structure your requirements in the tree to the left.</p> <p>You should structure your requirements in sections because this helps you to keep all your artifacts and their context-information manageable. There exist a lot of reference structures for requirements. For example you can use the IEEE Standard 1233-1998 which defines a structure for a system requirement specification (SyRS) or the IEEE Standard 830-1998 which defines a structure for a software requirements specification (SRS). <!-- Taken from: [Pohl 2008, S. 251 - 253] --></p>"
+  re_scenario_default_description: "<p>Managing scenarios to show processes in your system, identify rationales and provide context to tasks and subtasks.</p>"
+  re_requirement_default_description: "<p>For managing the most important RE artifact.</p> <p>Deriving requirements from scenarios helps to prevent you from inventing requirements because these artifacts should be the basis for all requirements. You can obtain new requirements from individual stakeholders with the help of interviews and observation. Workshops are the best options for discovering requirements from groups. [Pohl 2008, S. 183], [Alexander 2009, S.260 S. 315]</p>"
+  re_rationale_default_description: "<p>Use rationales to justify your requirements or other artifacts.</p> <p>Decisions on requirements and design are often based on hidden assumptions. Making assumptions explicit through a rationale enables decisions to be revised. Rationales also help to prioritize requirements and protect them from being removed.</p>"
+  re_subtask_default_description: "<p>Though you can create a subtask with this tool it is more convenient if you create a Task and add subtasks from the task view.</p>"
+  re_user_profile_default_description: "<p>You can use user profiles to describe your users.</p><p>Describing the stakeholder with user profiles is are very important because all requirements come from people. Thus you should discover and document all stakeholder which are involved in your project. [Alexander 2009, S 28]</p>"
+  re_workarea_default_description: "<p>A workarea can be used to structure a couple of tasks. It provides an ability to keep artifacts together, which take place in the same area (e.g. a room, a company or a department).</p>"
+
+  re_description_of_plugin_usage: "<h2>Criação de artefato</h2><ul><li>Get started by creating requirements artifacts. You may select from the artifacts shown below. After saving, you will find the artifacts you created in the tree to your left.</li><li>You can also right click on any artifact on the tree to add new artifacts. Use \"create artifact in\" to create an artifact in the next level of the tree or \"create artifact below\" to create an artifact on the same level.</li></ul><h2>Structure</h2><ul><li>You can drag and drop each artifact in the tree to reorder or restructure your RE artifacts. The tree represents the structure of your requirements document.</li><li>You can create traces between artifact by<ul><li>Editing an artifact and use the \"relationships\" section. Select the trace type with the radio butting and start typing a name. The artifacts will show up and a link can be created. You find all traces in the top-right section.</li><li>You can also create traces by dragging and dropping an artifact from the tree in the traces from/traces to sections. After dropping you can choose the relation type.</li></ul></li></ul><h2>Connecting Issues</h2><ul><li>You can use the Connect Issue link to create an issue which gets automatically linked to the selected artifact</li><li>You can also edit issues and artifacts to create links manually</li></ul><h2>Visualization</h2><ul><li>Use traceability visualizations by right-clicking an artifact. The visualization will apply to the selected sub-tree</li><li>Please note, that the artifact types and trace types need to be enabled in the side bar on the right side. Slide over the bar with the mouse to open it.</li></ul><!--<h2>Diagrameditor</h2><ul><li>The diagrameditor is a early alpha version and is right now abandoned in development. It is distributed in a seperate plugin and the RE plugin works without it. However if both plugins are installed they integrate with each other.</li><li>If you want to update/extend/use the editor feel free to contact us: <a class='external' href='http://korem.de/team.16.html'>http://korem.de/team.16.html</a></li></ul>--><h2>Other things</h2><ul><li>Usability<ul><li>The bars to the left and right are slid open on mouse over. You can close/open them permanently by clicking on the dark gray area.</li><li>The bar on the right shows all watcher and comments for the requirement artifact. Please note, that you need to reload the page to update the number of watchers and comments (there is no ajax-ish implementation, yet)</li></ul></li><li> Configurability<ul><li>This demo lets you export to opendocument ony. We use an open source conversion tool to export, which supports other types, like html, latex, mediawiki, rtf, etc. and is configurable by administrators. This may or may not work superb.</li><li>We enabled all types of requirement artifacts in this demo. If you prefer use-cases or other techniques administrators can disable certain artifact types.</li><li>The same for relationships</li><li>Artefato and relationship types can be renamed for your convenience.</li><li>Artefato and relationship colors can be choosen as you like</li><li>The visualization uses 4 recursive steps as the standard and is set to a size of 800x800 pixels. This can be configured.</li><li>Issues are included in visualization. This can be disabled.</li></ul></li></ul><p>Enjoy trying the plugin. Please contact us at <a class='external' href='http://korem.de/team.16.html'>http://korem.de/team.16.html</a> if you need more information.</p>"
