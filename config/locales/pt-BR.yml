@@ -408,7 +408,7 @@ pt:
   re_use_case_trigger : 'Trigger'
   re_use_case_precondition : 'Pré condição'
   re_use_case_postcondition : 'Pós condição'
-  re_delete_use_case_step: 'Deletar'
+  re_delete_use_case_step: 'Excluir'
   re_user_steps: 'Passos do usuário'
   re_system_steps: 'Passos do Sistema'
   re_use_case_steps: 'Passos do Caso de Uso'
@@ -444,26 +444,26 @@ pt:
   # re_processword
   re_processword: 'Processword'
   ReProcessword: 'Processword'
-  re_processword_specific_attributes: 'Process word specific attributes'
+  re_processword_specific_attributes: 'Atributos específicos de Processword'
   re_processword_synonyms: 'Sinônimos'
-  re_new_re_processword: 'New Processword'
+  re_new_re_processword: 'Nova Processword'
   re_processword_priority: 'Prioridade'
-  re_create_re_processword: 'Create a new Processword'
-  re_processword_saved: 'Processword successfully saved'
-  re_processword_deleted: 'The Processword %{name} has been deleted'
-  re_processword_not_deleted: 'The Processword %{name} não pode ser excluída'
-  re_processword_validation_error: 'Processword error: %{msg}'
+  re_create_re_processword: 'Criar nova Processword'
+  re_processword_saved: 'Processword salva com sucesso'
+  re_processword_deleted: 'Processword %{name} foi excluída'
+  re_processword_not_deleted: 'Processword %{name} não pode ser excluída'
+  re_processword_validation_error: 'Processword erro: %{msg}'
 
   # re_rationale
-  re_rationale: 'Rationale'
-  ReRationale: 'Rationale'
-  re_new_re_rationale: 'New Rationale'
-  re_create_re_rationale: 'Create a new Rationale'
-  re_rationale_specific_attributes: 'Rationale specific attributes'
-  re_rationale_saved: 'Rationale Successfully Saved'
-  re_rationale_deleted: 'The Rationale %{name} has been deleted'
-  re_rationale_not_deleted: 'The Rationale %{name} não pode ser excluída'
-  re_rationale_not_found: 'Could not find a Rationale with id %{id} to delete'
+  re_rationale: 'Análise Racional'
+  ReRationale: 'Análise Racional'
+  re_new_re_rationale: 'Nova Análise Racional'
+  re_create_re_rationale: 'Criar nova Análise Racional'
+  re_rationale_specific_attributes: 'Atributos específicos de Análise Racional'
+  re_rationale_saved: 'Análise Racional salva com sucesso'
+  re_rationale_deleted: 'A Análise Racional %{name} foi excluída'
+  re_rationale_not_deleted: 'A Análise Racional %{name} não pode ser excluída'
+  re_rationale_not_found: 'Não pode econtrar a Análise Racional com id %{id} para excluir'
 
   # re_tree
   re_specification_overview: 'Visão geral de especificação'
@@ -494,7 +494,7 @@ pt:
 
   #my blocks
 
-  relations: 'Relations'
+  relations: 'Relações'
   main_tab: 'Aba principal'
   comments: 'Comentários'
   new_comment: 'Novo comentário'
@@ -515,14 +515,14 @@ pt:
   progress: 'Progresso'
   requirement_progress: 'Progresso do Requisito'
 
-  rating: 'Rating'
-  rating_average: 'Rating average'
-  re_artifact_rating_average: 'Rating average'
-  own_rating: 'Your rating'
+  rating: 'Avaliação'
+  rating_average: 'Avaliação média'
+  re_artifact_rating_average: 'Avaliação média'
+  own_rating: 'Sua avaliação'
 
   #query and filter
   label_any: 'qualquer'
-  label_some: 'some'
+  label_some: 'algum'
   label_is_me: 'sou eu'
   label_is_not_me: 'não sou eu'
   label_asc: 'crescente'
@@ -595,17 +595,16 @@ pt:
   re_edit_default_description: 'Editar descrição padrão'
 
   #default artifact descriptions
-  re_goal_default_description: '<p>You may want to use goals as high level requirements or to structure your requirements. There are also approaches using goals for the whole RE, especially for understanding the requirements.</p> <p>Goals are a good starting point to record the intentions of your stakeholders. Goals do not have to be fully achieveable nor measureable. Goals can be regarded as a first sketch of the requirements. You can use goals to discover conflicts between the intentions of your stakeholders and solve this conflicts. This may helps you to establish an overall agreement between your stakeholders. You should take care about that a goal refines a vision statements. [Alexander 2009, S. 51]</p>'  
+  re_goal_default_description: '<p>Você pode usar objetivos como requisitos de alto nível ou para estruturar seus requisitos. Existem também abordagens que usam objetivos para toda a Engenharia de Requisitos, especialmente para a compreensão dos requisitos.</p> <p>Objetivos são um ótimo ponto de partida para gravar a intenção dos seus stakeholders. Objetivos não precisam ser totalmente alcançáveis e nem mensuráveis. Objetivos podem ser considerados como um esboço inicial dos requisitos. Você também pode usar objetivos para descobrir conflitos entre as intenções dos seusstakeholders e resolver tais conflitos. Isso pode ajudá-lo a estabelecer um consentimento global entre seus stakeholders. Você deve se atentar que: um objetivo refina uma declaração de visão. [Alexander 2009, S. 51]</p>'  
   re_processword_default_description: "<p>Processwords are needed for the use of a syntactic requirements template. You can define synonyms for the word here and deliver a proper definition of the term.</p>"  
-  re_vision_default_description: "<p>A vision statement for your project. Describe ideas in Wiki style syntax with this artifact.</p> <p>You should use vision statement to describe the basic purpose of your project. A vision should be clear and simple so that everybody is able to understand the basic purpose the project. [Alexander 2009, S 53]</p>"
-  re_task_default_description: "<p>If you are unfamiliar with using Lauesen''s Task-Based approach for RE - it is very similar to the famous Use-Cases by Cockburn - simply <a href='http://www.itu.dk/~slauesen/SorenReqs.html'>check his website</a>.<br /> Most important is that you recognize the demand solution principle coming with the two columns of the approach.</p> <p>Tasks do not distinguish between who does what. Task closure means that your task has a well defined start and end point. A good starting point is something that happens in the user''s world, for instance that a client calls. A good end point is that nothing more can be done about the case right now - the user deserves a \"coffee break\". [Lauesen 2011, S. 34]</p>"
-  re_use_case_default_description: "<p>Use Case template as found in Cockburn''s Book Writing effective Use-Cases.</p>"
+  re_vision_default_description: "<p>Uma declaração de visão para seu projeto. Descreva ideias em uma sintaxe ''estilo-Wiki'' com esse artefato.</p> <p>Você deveria usar a declaração de visão para descrever o propósito básido do seu projeto. Uma visão deve ser clara e simples, de modo que todo mundo seja capaz de entender o propósito básico do projeto. [Alexander 2009, S 53]</p>"
+  re_task_default_description: "<p>Se você não é familiarizado em usar a abordagem Task-Based do Lauesen''s para Engenharia de Requisitos - é bem similar aos famosos Casos de Uso do Cockburn - dê <a href='http://www.itu.dk/~slauesen/SorenReqs.html'>uma conferida nesse website</a>.<br /> O mais importante é que você entenda reconheça o princípio de solução da demanda coming with the two columns da abordagem.</p> <p>Tasks do not distinguish between who does what. Task closure means that your task has a well defined start and end point. A good starting point is something that happens in the user''s world, for instance that a client calls. A good end point is that nothing more can be done about the case right now - the user deserves a \"coffee break\". [Lauesen 2011, S. 34]</p>"
+  re_use_case_default_description: "<p>Template de Caso de Uso conforme descrito no livro ''Writing effective Use-Cases'', por Alistair Cockburn.</p>"
   re_section_default_description: "<p>Use sections to structure your requirements in the tree to the left.</p> <p>You should structure your requirements in sections because this helps you to keep all your artifacts and their context-information manageable. There exist a lot of reference structures for requirements. For example you can use the IEEE Standard 1233-1998 which defines a structure for a system requirement specification (SyRS) or the IEEE Standard 830-1998 which defines a structure for a software requirements specification (SRS). <!-- Taken from: [Pohl 2008, S. 251 - 253] --></p>"
-  re_scenario_default_description: "<p>Managing scenarios to show processes in your system, identify rationales and provide context to tasks and subtasks.</p>"
-  re_requirement_default_description: "<p>For managing the most important RE artifact.</p> <p>Deriving requirements from scenarios helps to prevent you from inventing requirements because these artifacts should be the basis for all requirements. You can obtain new requirements from individual stakeholders with the help of interviews and observation. Workshops are the best options for discovering requirements from groups. [Pohl 2008, S. 183], [Alexander 2009, S.260 S. 315]</p>"
-  re_rationale_default_description: "<p>Use rationales to justify your requirements or other artifacts.</p> <p>Decisions on requirements and design are often based on hidden assumptions. Making assumptions explicit through a rationale enables decisions to be revised. Rationales also help to prioritize requirements and protect them from being removed.</p>"
-  re_subtask_default_description: "<p>Though you can create a subtask with this tool it is more convenient if you create a Task and add subtasks from the task view.</p>"
-  re_user_profile_default_description: "<p>You can use user profiles to describe your users.</p><p>Describing the stakeholder with user profiles is are very important because all requirements come from people. Thus you should discover and document all stakeholder which are involved in your project. [Alexander 2009, S 28]</p>"
-  re_workarea_default_description: "<p>A workarea can be used to structure a couple of tasks. It provides an ability to keep artifacts together, which take place in the same area (e.g. a room, a company or a department).</p>"
-
+  re_scenario_default_description: "<p>Gerenciando cenários para exibir processos no seu sistema, identificar rationales e fornecer contexto para tarefas e subtarefas.</p>"
+  re_requirement_default_description: "<p>Para gerenciar o artefato mais importante da Engenharia de Requisitos.</p> <p>Derivar requisitos a partir de cenários lhe ajuda a impedir requisitos inventandos, porque esses artefatos devem ser a base para todos os Requisitos. Você pode obter novas exigências individualmente dos stakeholders com a ajuda de entrevistas e observações. Workshop são as melhores opções para decobrir requisitos de grupos. [Pohl 2008, S. 183], [Alexander 2009, S.260 S. 315]</p>"
+  re_rationale_default_description: "<p>Use a Análise Racional para justificar seus requisitos ou outros artefatos.</p> <p>As decisões de requisitos e de projeto são muitas vezes baseadas em pressupostos ocultos (que ficam nas cabeças de poucas pessoas). Fazendo suposições explícita através de uma Análise Racional permite que as decisões sejam revistas. Análises Racionais também ajudam a priorizar os requisitos e protegê-los de serem removidos.</p>"
+  re_subtask_default_description: "<p>Embora você possa criar uma subtarefa com esta ferramenta, é mais conveniente criar uma tarefa e adicionair sub-tarefas.</p>"
+  re_user_profile_default_description: "<p>Você pode usar perfis para descrever seus usuários.</p><p>Descrevendo o stakeholder com perfis de usuário é muito importante porque todos os requisitos vêm de pessoas. Assim, você deve descobrir e documentar todos os stakeholders que estão envolvidas em seu projeto .[Alexander 2009, S 28]</p>"
+  re_workarea_default_description: "<p>Uma workarea pode ser utilizada para estruturar um conjunto de tarefas. Ela fornece uma capacidade de manter artefatos juntos, o que ocorrerá na mesma área. (e.g. uma sala, uma empresa ou um departamento).</p>"
   re_description_of_plugin_usage: "<h2>Criação de artefato</h2><ul><li>Get started by creating requirements artifacts. You may select from the artifacts shown below. After saving, you will find the artifacts you created in the tree to your left.</li><li>You can also right click on any artifact on the tree to add new artifacts. Use \"create artifact in\" to create an artifact in the next level of the tree or \"create artifact below\" to create an artifact on the same level.</li></ul><h2>Structure</h2><ul><li>You can drag and drop each artifact in the tree to reorder or restructure your RE artifacts. The tree represents the structure of your requirements document.</li><li>You can create traces between artifact by<ul><li>Editing an artifact and use the \"relationships\" section. Select the trace type with the radio butting and start typing a name. The artifacts will show up and a link can be created. You find all traces in the top-right section.</li><li>You can also create traces by dragging and dropping an artifact from the tree in the traces from/traces to sections. After dropping you can choose the relation type.</li></ul></li></ul><h2>Connecting Issues</h2><ul><li>You can use the Connect Issue link to create an issue which gets automatically linked to the selected artifact</li><li>You can also edit issues and artifacts to create links manually</li></ul><h2>Visualization</h2><ul><li>Use traceability visualizations by right-clicking an artifact. The visualization will apply to the selected sub-tree</li><li>Please note, that the artifact types and trace types need to be enabled in the side bar on the right side. Slide over the bar with the mouse to open it.</li></ul><!--<h2>Diagrameditor</h2><ul><li>The diagrameditor is a early alpha version and is right now abandoned in development. It is distributed in a seperate plugin and the RE plugin works without it. However if both plugins are installed they integrate with each other.</li><li>If you want to update/extend/use the editor feel free to contact us: <a class='external' href='http://korem.de/team.16.html'>http://korem.de/team.16.html</a></li></ul>--><h2>Other things</h2><ul><li>Usability<ul><li>The bars to the left and right are slid open on mouse over. You can close/open them permanently by clicking on the dark gray area.</li><li>The bar on the right shows all watcher and comments for the requirement artifact. Please note, that you need to reload the page to update the number of watchers and comments (there is no ajax-ish implementation, yet)</li></ul></li><li> Configurability<ul><li>This demo lets you export to opendocument ony. We use an open source conversion tool to export, which supports other types, like html, latex, mediawiki, rtf, etc. and is configurable by administrators. This may or may not work superb.</li><li>We enabled all types of requirement artifacts in this demo. If you prefer use-cases or other techniques administrators can disable certain artifact types.</li><li>The same for relationships</li><li>Artefato and relationship types can be renamed for your convenience.</li><li>Artefato and relationship colors can be choosen as you like</li><li>The visualization uses 4 recursive steps as the standard and is set to a size of 800x800 pixels. This can be configured.</li><li>Issues are included in visualization. This can be disabled.</li></ul></li></ul><p>Enjoy trying the plugin. Please contact us at <a class='external' href='http://korem.de/team.16.html'>http://korem.de/team.16.html</a> if you need more information.</p>"
